@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+   include includes/head.pug
+body
+  include includes/navbar.pug
+  script(src='/js/main.js', defer)
+  .container
+   .jumbotron.text-center.bg-transparent
+    h1.display-3 Source.
+    p.lead NCR Codes ✨, Source code.
+    button.btn.btn-danger(type='button' onclick='scrAlert()') Get Now.

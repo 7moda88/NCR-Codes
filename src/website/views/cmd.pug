@@ -1,0 +1,21 @@
+include includes/head.pug
+body
+  include includes/navbar.pug
+  .container
+   .jumbotron.text-center.bg-transparent
+    h1.display-3 Commands.
+    p.lead NCR Codes ✨, commands.
+    hr
+    .row
+    .col-4
+    #list-tab.list-group(role='tablist')
+      a#list-codes-list.list-group-item.list-group-item-action.active(data-toggle='list', href='#list-codes', role='tab', aria-controls='codes') Codes
+      a#list-uptime-list.list-group-item.list-group-item-action(data-toggle='list', href='#list-uptime', role='tab', aria-controls='uptime') Uptime
+      a#list-other-list.list-group-item.list-group-item-action(data-toggle='list', href='#list-other', role='tab', aria-controls='other') Other
+      a#list-admins-list.list-group-item.list-group-item-action(data-toggle='list', href='#list-admins', role='tab', aria-controls='admins') Admins
+    .col-8
+    #nav-tabContent.tab-content
+      #list-codes.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='list-codes-list', style='margin-top: 300%').h3.display-5.hr.my-3 /djs, /dpy, /bdfd, /project, /search-djs, /update, /tutorials
+      #list-uptime.tab-pane.fade(role='tabpanel', aria-labelledby='list-uptime-list', style='margin-top: 300%').h3.display-5.hr.my-3 /uptime, /list, /delete
+      #list-other.tab-pane.fade(role='tabpanel', aria-labelledby='list-other-list', style='margin-top: 300%').h3.display-5.hr.my-3 /support, /ping, /upload
+      #list-admins.tab-pane.fade(role='tabpanel', aria-labelledby='list-admins-list', style='margin-top: 300%').h3.display-5.hr.my-3 /emoji-add, /set-prefix, /set-lang
