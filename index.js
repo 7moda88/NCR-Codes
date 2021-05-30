@@ -1,3 +1,6 @@
+// Copyright (c) 2021 DevelopersSupportAR
+// هتشيل اي حقوق هنيكك
+
 require("./src/website/server");
 const Discord = require("discord.js");
 const { Collection, Client, MessageEmbed } = require("discord.js");
