@@ -4,10 +4,6 @@
 
 **Make Sure You Can Invite The Real Bot From [Here](https://discord.com/oauth2/authorize?client_id=780558820640423966&permissions=1647832432&scope=bot%20applications.commands)**
 
-## 💨 Run the projects
-
-**Replit: [Run on Repl.it](https://repl.it/@NIR0/Ultra-Music-Bot-By-NIR0#README.md)**
-
 ## ⚡ Installation
 
 fist go to `config` folder soo you will find a `emojis.js` and `bot.js` files, you only have to `bot.js` like that:
