@@ -1,3 +1,3 @@
 function scrAlert() {
-  alert("This Section Is Not Allowed")
+  alert("Github: https://github.com/DevelopersSupportAR/NCR-Codes.git")
 }
