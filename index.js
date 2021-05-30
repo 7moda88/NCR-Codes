@@ -1,4 +1,4 @@
-// Copyright (c) 2021 DevelopersSupportAR
+// Copyright (c) 2021 DevelopersSupportAR && NIR0
 // هتشيل اي حقوق هنيكك
 
 require("./src/website/server");
