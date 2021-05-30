@@ -1,3 +1,7 @@
+// Copyright (c) 2021 DevelopersSupportAR && NIR0
+// هتشيل اي حقوق هنيكك
+
+
 const { MessageEmbed } = require("discord.js");
 const db = require("quick.db");
 
@@ -78,6 +82,11 @@ module.exports = {
       .addField(`🗃 | ${prefix}upload`, "لأضافة كود في البوت", true)
       .addField(`**Admins** ${client.emotes.hammeree}`, "_ _", false)
       .addField(
+        `📦 | ${prefix}source`,
+        "(تكون هذه النسخه بدون اي نوع من انواع الدعم السريع بمعنا ان الأساله يتم الرد عليها ببطئ شديد و الأكواد التى في النسخه داءما ما تكون قديمه على عكس البوت الأصلي) للحصول على نسخه من البوت",
+        true
+      )
+      .addField(
         `:star_struck: | ${prefix}emoji-add`,
         "لأضفة ايموجي للسيرفر",
         true
@@ -152,6 +161,11 @@ module.exports = {
       .addField(`:ping_pong: | ${prefix}ping`, "Get Bot Ping", true)
       .addField(`🗃 | ${prefix}upload`, "To Add Codes To Bot", true)
       .addField(`**Admins** ${client.emotes.hammeree}`, "_ _", false)
+          .addField(
+        `📦 | ${prefix}source`,
+        "(This version is without any kind of quick support, meaning that the question is answered very slowly, and the codes in the version are always outdated, unlike the original bot) To get a copy of the bot",
+        true
+      )
       .addField(`:star_struck: | ${prefix}emoji-add`, "Add Emojis", true)
       .addField(`:bricks: | ${prefix}set-prefix`, "Change Prefix", true)
       .addField(`:scroll: | ${prefix}set-lang`, "Change Lang", true);
