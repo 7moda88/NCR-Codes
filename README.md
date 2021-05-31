@@ -32,4 +32,3 @@ then run the project with this command:
 [Developers Support](https://discord.gg/qA9qKe8Ubx)
 
 [NCR Codes](https://discord.gg/WR6y9XB7dU)
- 
