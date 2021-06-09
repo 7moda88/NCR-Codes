@@ -1,4 +1,7 @@
+require("dotenv").config();
+
 module.exports = {
-  prefix: "",
-  token: ""
+  prefix: "/",
+  token: process.env.TOKEN,
+  mongoPath: process.env.MONGOPATH
 };
