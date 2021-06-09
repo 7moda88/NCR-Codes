@@ -27,7 +27,7 @@ module.exports = {
                 let btn4 = new MessageButton()
                     .setLabel('رابط موقع البوت!')
                     .setStyle('url')
-                    .setURL('https://ncr-codes.glitch.me/');
+                    .setURL('http://www.ncr-codes.ml/');
                 let row = new MessageActionRow()
                     .addComponent(btn)
                     .addComponent(btn2)
@@ -50,7 +50,7 @@ module.exports = {
                   let btn4 = new MessageButton()
                     .setLabel('Bot Website!')
                     .setStyle('url')
-                    .setURL('https://ncr-codes.glitch.me/');
+                    .setURL('http://www.ncr-codes.ml/');
                 let row = new MessageActionRow()
                     .addComponent(btn)
                     .addComponent(btn2)
