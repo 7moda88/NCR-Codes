@@ -24,10 +24,15 @@ module.exports = {
                     .setLabel('رابط صفحة تصويت!')
                     .setStyle('url')
                     .setURL('https://top.gg/bot/780558820640423966/vote');
+                let btn4 = new MessageButton()
+                    .setLabel('رابط موقع البوت!')
+                    .setStyle('url')
+                    .setURL('https://ncr-codes.glitch.me/');
                 let row = new MessageActionRow()
                     .addComponent(btn)
                     .addComponent(btn2)
-                    .addComponent(btn3);
+                    .addComponent(btn3)
+                    .addComponent(btn4);
                 return message.channel.send("**روابط مساعدة البوت!!.**", { component: row });
             } else if (lang2 == "english") {
                 let btn = new MessageButton()
@@ -42,10 +47,15 @@ module.exports = {
                     .setLabel('Top.gg!')
                     .setStyle('url')
                     .setURL('https://top.gg/bot/780558820640423966/vote');
+                  let btn4 = new MessageButton()
+                    .setLabel('Bot Website!')
+                    .setStyle('url')
+                    .setURL('https://ncr-codes.glitch.me/');
                 let row = new MessageActionRow()
                     .addComponent(btn)
                     .addComponent(btn2)
-                    .addComponent(btn3);
+                    .addComponent(btn3)
+                    .addComponent(btn4);
                 return message.channel.send("**Bot Support Links!!.**", { component: row });
             } else {
                 return message.channel.send(
