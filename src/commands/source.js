@@ -8,7 +8,7 @@ module.exports = {
         let url = new MessageButton()
             .setLabel('Source!')
             .setStyle('url')
-            .setURL('https://ncr-codes.glitch.me/src');
+            .setURL('http://www.ncr-codes.ml/src');
         message.channel.send("**>>> `-` The Bot Source Code**", url);
     }
 };
