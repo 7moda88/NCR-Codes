@@ -18,7 +18,33 @@ module.exports = {
                         .setTitle(`Videos ${client.emotes.success}`)
                         .setColor("YELLOW")
                         .setDescription(
-                            " **[#0](https://www.youtube.com/watch?v=v5wTqv7y_QM)\n[#1](https://www.youtube.com/watch?v=cum9l66X5Kk&t=7s)** "
+                            `**[#0](https://www.youtube.com/watch?v=Y7gMRuVax18)
+                            [#1](https://www.youtube.com/watch?v=0fQ_PeC9xOk)
+                            [#2](https://www.youtube.com/watch?v=fFXdR7-dAI0)
+                            [#3](https://www.youtube.com/watch?v=FUrVIVdBnr0)
+                            [#4](https://www.youtube.com/watch?v=gkBORe2b8qo)
+                            [#5](https://www.youtube.com/watch?v=ETNT_Q8T1OE)
+                            [#6](https://www.youtube.com/watch?v=ut5LaKmH3lE)
+                            [#7](https://www.youtube.com/watch?v=T8nNgsL18U8)
+                            [#8](https://www.youtube.com/watch?v=pi8u9PaSM9w)
+                            [#9](https://www.youtube.com/watch?v=xhre9wNFlLI)
+                            [#10](https://www.youtube.com/watch?v=l1cQGsYqR68)
+                            [#11](https://www.youtube.com/watch?v=2Z9ma0uOWa4)
+                            [#12](https://www.youtube.com/watch?v=KMxbPJONTRY)
+                            [#13](https://www.youtube.com/watch?v=3mFLFOOsOoM)
+                            [#14](https://www.youtube.com/watch?v=WaVmeLlZBxw)
+                            [#15](https://www.youtube.com/watch?v=MBNu51OilW4)
+                            [#16](https://www.youtube.com/watch?v=qNXOykoWfNs)
+                            [#17](https://www.youtube.com/watch?v=5soa2m_jPX8)
+                            [#18](https://www.youtube.com/watch?v=SG0AkQnNFZ8)
+                            [#19](https://www.youtube.com/watch?v=yDQnQq03Yxo)
+                            [#20](https://www.youtube.com/watch?v=CZLAFhBNiPU)
+                            [#21](https://www.youtube.com/watch?v=BzJFPTfEumo)
+                            [#22](https://www.youtube.com/watch?v=Apn56me5HQY)
+                            [#23](https://www.youtube.com/watch?v=8XQsXt5y2tw)
+                            [#24](https://www.youtube.com/watch?v=Jw4wM4VbF98)
+                            [#25](https://www.youtube.com/watch?v=m0v2HLqPPsM)
+                            [#26](https://www.youtube.com/watch?v=jthuD_wy0og)**`
                         )
                         .setFooter(`Request By: ${message.author.tag}`)
                         .setTimestamp()
@@ -29,7 +55,71 @@ module.exports = {
                         .setTitle(`فيديوه ${client.emotes.success}`)
                         .setColor("YELLOW")
                         .setDescription(
-                            " **[#0](https://www.youtube.com/watch?v=v5wTqv7y_QM)\n[#1](https://www.youtube.com/watch?v=cum9l66X5Kk&t=7s)** "
+                            `**[#0](https://www.youtube.com/watch?v=Y7gMRuVax18)
+                            [#1](https://www.youtube.com/watch?v=0fQ_PeC9xOk)
+                            [#2](https://www.youtube.com/watch?v=fFXdR7-dAI0)
+                            [#3](https://www.youtube.com/watch?v=FUrVIVdBnr0)
+                            [#4](https://www.youtube.com/watch?v=gkBORe2b8qo)
+                            [#5](https://www.youtube.com/watch?v=ETNT_Q8T1OE)
+                            [#6](https://www.youtube.com/watch?v=ut5LaKmH3lE)
+                            [#7](https://www.youtube.com/watch?v=T8nNgsL18U8)
+                            [#8](https://www.youtube.com/watch?v=pi8u9PaSM9w)
+                            [#9](https://www.youtube.com/watch?v=xhre9wNFlLI)
+                            [#10](https://www.youtube.com/watch?v=l1cQGsYqR68)
+                            [#11](https://www.youtube.com/watch?v=2Z9ma0uOWa4)
+                            [#12](https://www.youtube.com/watch?v=KMxbPJONTRY)
+                            [#13](https://www.youtube.com/watch?v=3mFLFOOsOoM)
+                            [#14](https://www.youtube.com/watch?v=WaVmeLlZBxw)
+                            [#15](https://www.youtube.com/watch?v=MBNu51OilW4)
+                            [#16](https://www.youtube.com/watch?v=qNXOykoWfNs)
+                            [#17](https://www.youtube.com/watch?v=5soa2m_jPX8)
+                            [#18](https://www.youtube.com/watch?v=SG0AkQnNFZ8)
+                            [#19](https://www.youtube.com/watch?v=yDQnQq03Yxo)
+                            [#20](https://www.youtube.com/watch?v=CZLAFhBNiPU)
+                            [#21](https://www.youtube.com/watch?v=BzJFPTfEumo)
+                            [#22](https://www.youtube.com/watch?v=Apn56me5HQY)
+                            [#23](https://www.youtube.com/watch?v=8XQsXt5y2tw)
+                            [#24](https://www.youtube.com/watch?v=Jw4wM4VbF98)
+                            [#25](https://www.youtube.com/watch?v=m0v2HLqPPsM)
+                            [#26](https://www.youtube.com/watch?v=jthuD_wy0og)**`
+                        )
+                        .setFooter(`Request By: ${message.author.tag}`)
+                        .setTimestamp()
+                    );
+                } else {
+                    return message.lineReply(
+                        new MessageEmbed()
+                        .setColor("RED")
+                        .setDescription(
+                            `**> \`-\` The bot does not work? it's ok just type \`${prefix}set-lang english\`\n> \`-\` البوت لا يعمل؟ يرجى كتابة \`${prefix}set-lang arabic\`**`
+                        )
+                    );
+                }
+            } else if (args[1] === "quick" || "quick.db") {
+                if (lang2 == "english") {
+                    message.lineReply(
+                        new MessageEmbed()
+                        .setTitle(`Videos ${client.emotes.success}`)
+                        .setColor("YELLOW")
+                        .setDescription(
+                            `**[#0](https://www.youtube.com/watch?v=OKLocmicMoc)
+                            [#1](https://www.youtube.com/watch?v=pwr-FTVmBl0)
+                            [#2](https://www.youtube.com/watch?v=va8z2L-Gh4E)
+                            [#3](https://www.youtube.com/watch?v=5Nfl0eUamlc)**`
+                        )
+                        .setFooter(`Request By: ${message.author.tag}`)
+                        .setTimestamp()
+                    );
+                } else if (lang2 == "arabic") {
+                    message.lineReply(
+                        new MessageEmbed()
+                        .setTitle(`فيديوه ${client.emotes.success}`)
+                        .setColor("YELLOW")
+                        .setDescription(
+                            `**[#0](https://www.youtube.com/watch?v=OKLocmicMoc)
+                            [#1](https://www.youtube.com/watch?v=pwr-FTVmBl0)
+                            [#2](https://www.youtube.com/watch?v=va8z2L-Gh4E)
+                            [#3](https://www.youtube.com/watch?v=5Nfl0eUamlc)**`
                         )
                         .setFooter(`Request By: ${message.author.tag}`)
                         .setTimestamp()
@@ -50,7 +140,7 @@ module.exports = {
                         .setTitle(`Error ${client.emotes.error}`)
                         .setColor("RED")
                         .setDescription(
-                            `**${client.emotes.error} | Oly \`js\` Is Avelble**`
+                            `**${client.emotes.error} | Oly \`js\`, \`quick.db\` Is Avelble**`
                         )
                         .setFooter(`Request By: ${message.author.tag}`)
                         .setTimestamp()
@@ -60,7 +150,7 @@ module.exports = {
                         new MessageEmbed()
                         .setTitle(`Error ${client.emotes.error}`)
                         .setColor("RED")
-                        .setDescription(`**${client.emotes.error} | فقط ال \`js\` متاح**`)
+                        .setDescription(`**${client.emotes.error} | فقط ال \`js\`, \`quick.db\` متاح**`)
                         .setFooter(`Request By: ${message.author.tag}`)
                         .setTimestamp()
                     );
