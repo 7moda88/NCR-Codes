@@ -5,7 +5,7 @@ const { MessageButton, MessageActionRow } = require('discord-buttons');
 module.exports = {
     name: "support",
     cooldown: 7,
-    aliases: [""],
+    aliases: ["invite"],
     run: async(client, message) => {
             var devs = client.config.devs;
             var lang2 = await db.fetch(`langguild_${message.guild.id}`);
