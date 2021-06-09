@@ -9,9 +9,12 @@
 fist go to `config` folder soo you will find a `emojis.js` and `bot.js` files, you only have to `bot.js` like that:
 
 ```js
+require("dotenv").config();
+
 module.exports = {
-  prefix: "Your Discord Bot Prefix",
-  token: "Your Discord Bot Token, You Can Get From Here: https://discord.com/developers/applications/"
+  prefix: "/", // your bot prefix
+  token: process.env.TOKEN, // your bot token ( in env file )
+  mongoPath: process.env.MONGOPATH // your mongo path ( in env file )
 };
 ```
 
