@@ -8,7 +8,7 @@ module.exports = {
         let url = new MessageButton()
             .setLabel('Source!')
             .setStyle('url')
-            .setURL('https://ncr-codes.herokuapp.com/src');
+            .setURL('https://ncr-codes.glitch.me/src');
         message.channel.send("**>>> `-` The Bot Source Code**", url);
     }
 };
