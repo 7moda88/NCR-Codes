@@ -9691,3 +9691,6 @@ ${client.emotes.list} Code : \`https://pastebin.com/P9Y6VWhL\`**`)
     console.log(err);
   }
 });
+
+
+// Main File 📁🧑‍🦲
