@@ -6335,7 +6335,7 @@ client.on("message", async message => {
       message.author
         .send(
           new MessageEmbed().setColor("#2F3136")
-            .setDescription(`**${client.emotes.nodejs} Description : calculator code
+            .setDescription(`**${client.emotes.nodejs} Description : shuffle game code
 ${client.emotes.list} Code : \`https://pastebin.com/JMaJacpR\`**`)
         )
         .then(() => {
