@@ -128,7 +128,13 @@ module.exports = {
         ${client.emotes.list}\`${prefix}djs-v12-104\` <:blue_arrow:810832471175462932> كود لو حد خش السرفر ياخد نيك نيم
         ${client.emotes.list}\`${prefix}djs-v12-105\` <:blue_arrow:810832471175462932> كود اذا اشتغل البوت يرسل رسالة بشات معين
         ${client.emotes.list}\`${prefix}djs-v12-106\` <:blue_arrow:810832471175462932> كود ازا البوت دخل سيرفر بعمل روم و يبعت فيها رساله
-        ${client.emotes.list}\`${prefix}djs-v12-107\` <:blue_arrow:810832471175462932> **`
+        ${client.emotes.list}\`${prefix}djs-v12-107\` <:blue_arrow:810832471175462932> تحط كلمة البوت وتخلي البوت يقلها في الشات الصوتي
+        ${client.emotes.list}\`${prefix}djs-v12-108\` <:blue_arrow:810832471175462932> كود لعبة الثعبان
+        ${client.emotes.list}\`${prefix}djs-v12-109\` <:blue_arrow:810832471175462932> كود لعبة اكس اوه مطور**`,
+        `**
+        ${client.emotes.list}\`${prefix}djs-v12-110\` <:blue_arrow:810832471175462932> كود اله حاسبه
+        ${client.emotes.list}\`${prefix}djs-v12-111\` <:blue_arrow:810832471175462932> كوجد ترتيب الكلام
+        **`
       ];
       let page = 1;
 
@@ -313,7 +319,13 @@ module.exports = {
             ${client.emotes.list}\`${prefix}djs-v12-104\` <:blue_arrow:810832471175462932> if sameone joind the server he will takes a nickname
             ${client.emotes.list}\`${prefix}djs-v12-105\` <:blue_arrow:810832471175462932> if the bot is online he will send a message to a channel you detect
             ${client.emotes.list}\`${prefix}djs-v12-106\` <:blue_arrow:810832471175462932> if the bot joind a new server he will create a room a send message inside
-            ${client.emotes.list}\`${prefix}djs-v12-107\` <:blue_arrow:810832471175462932> **`
+            ${client.emotes.list}\`${prefix}djs-v12-107\` <:blue_arrow:810832471175462932> the bot says what you wont code
+            ${client.emotes.list}\`${prefix}djs-v12-108\` <:blue_arrow:810832471175462932> snake game code
+            ${client.emotes.list}\`${prefix}djs-v12-109\` <:blue_arrow:810832471175462932> xo game code**`,
+        `**
+            ${client.emotes.list}\`${prefix}djs-v12-110\` <:blue_arrow:810832471175462932> calculator code
+            ${client.emotes.list}\`${prefix}djs-v12-111\` <:blue_arrow:810832471175462932> shuffle the word game code
+         **`
       ];
       let page = 1;
 
