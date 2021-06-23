@@ -6166,6 +6166,191 @@ ${client.emotes.list} Code : \`https://pastebin.com/8A8kMeZS\`**`)
     }
   }
 });
+client.on("message", async message => {
+  if (message.channel.type == "dm") return;
+  var prefix = await db.fetch(`prefix_${message.guild.id}`);
+  if (prefix == null) prefix = client.config.prefix;
+  if (message.author.bot) return;
+  if (message.content === prefix + "djs-v12-107") {
+    var args = message.content.split(" ");
+    if (cooldown.has(message.author.id)) {
+      message.channel.send(
+        new MessageEmbed()
+          .setColor("#2F3136")
+          .setDescription(
+            `**You Are In Cooldown Please Wait \`5s\` To Use \`${
+              args[0]
+            }\` Again**`
+          )
+      );
+    } else {
+      message.author
+        .send(
+          new MessageEmbed().setColor("#2F3136")
+            .setDescription(`**${client.emotes.nodejs} Description : the bot says what you wont
+${client.emotes.list} Code : \`https://pastebin.com/x12E066j\`**`)
+        )
+        .then(() => {
+          message.react(`${client.emotes.success}`);
+        })
+        .catch(() => {
+          message.react(`${client.emotes.error}`);
+        });
+      cooldown.add(message.author.id);
+      setTimeout(() => {
+        cooldown.delete(message.author.id);
+      }, 7000);
+    }
+  }
+});
+client.on("message", async message => {
+  if (message.channel.type == "dm") return;
+  var prefix = await db.fetch(`prefix_${message.guild.id}`);
+  if (prefix == null) prefix = client.config.prefix;
+  if (message.author.bot) return;
+  if (message.content === prefix + "djs-v12-108") {
+    var args = message.content.split(" ");
+    if (cooldown.has(message.author.id)) {
+      message.channel.send(
+        new MessageEmbed()
+          .setColor("#2F3136")
+          .setDescription(
+            `**You Are In Cooldown Please Wait \`5s\` To Use \`${
+              args[0]
+            }\` Again**`
+          )
+      );
+    } else {
+      message.author
+        .send(
+          new MessageEmbed().setColor("#2F3136")
+            .setDescription(`**${client.emotes.nodejs} Description : snake game
+${client.emotes.list} Code : \`https://pastebin.com/AqF9MUPL\`**`)
+        )
+        .then(() => {
+          message.react(`${client.emotes.success}`);
+        })
+        .catch(() => {
+          message.react(`${client.emotes.error}`);
+        });
+      cooldown.add(message.author.id);
+      setTimeout(() => {
+        cooldown.delete(message.author.id);
+      }, 7000);
+    }
+  }
+});
+client.on("message", async message => {
+  if (message.channel.type == "dm") return;
+  var prefix = await db.fetch(`prefix_${message.guild.id}`);
+  if (prefix == null) prefix = client.config.prefix;
+  if (message.author.bot) return;
+  if (message.content === prefix + "djs-v12-109") {
+    var args = message.content.split(" ");
+    if (cooldown.has(message.author.id)) {
+      message.channel.send(
+        new MessageEmbed()
+          .setColor("#2F3136")
+          .setDescription(
+            `**You Are In Cooldown Please Wait \`5s\` To Use \`${
+              args[0]
+            }\` Again**`
+          )
+      );
+    } else {
+      message.author
+        .send(
+          new MessageEmbed().setColor("#2F3136")
+            .setDescription(`**${client.emotes.nodejs} Description : xo game
+${client.emotes.list} Code : \`https://pastebin.com/yw4fraNE\`**`)
+        )
+        .then(() => {
+          message.react(`${client.emotes.success}`);
+        })
+        .catch(() => {
+          message.react(`${client.emotes.error}`);
+        });
+      cooldown.add(message.author.id);
+      setTimeout(() => {
+        cooldown.delete(message.author.id);
+      }, 7000);
+    }
+  }
+});
+client.on("message", async message => {
+  if (message.channel.type == "dm") return;
+  var prefix = await db.fetch(`prefix_${message.guild.id}`);
+  if (prefix == null) prefix = client.config.prefix;
+  if (message.author.bot) return;
+  if (message.content === prefix + "djs-v12-110") {
+    var args = message.content.split(" ");
+    if (cooldown.has(message.author.id)) {
+      message.channel.send(
+        new MessageEmbed()
+          .setColor("#2F3136")
+          .setDescription(
+            `**You Are In Cooldown Please Wait \`5s\` To Use \`${
+              args[0]
+            }\` Again**`
+          )
+      );
+    } else {
+      message.author
+        .send(
+          new MessageEmbed().setColor("#2F3136")
+            .setDescription(`**${client.emotes.nodejs} Description : calculator code
+${client.emotes.list} Code : \`https://pastebin.com/Q6Pbn8Tw\`**`)
+        )
+        .then(() => {
+          message.react(`${client.emotes.success}`);
+        })
+        .catch(() => {
+          message.react(`${client.emotes.error}`);
+        });
+      cooldown.add(message.author.id);
+      setTimeout(() => {
+        cooldown.delete(message.author.id);
+      }, 7000);
+    }
+  }
+});
+client.on("message", async message => {
+  if (message.channel.type == "dm") return;
+  var prefix = await db.fetch(`prefix_${message.guild.id}`);
+  if (prefix == null) prefix = client.config.prefix;
+  if (message.author.bot) return;
+  if (message.content === prefix + "djs-v12-111") {
+    var args = message.content.split(" ");
+    if (cooldown.has(message.author.id)) {
+      message.channel.send(
+        new MessageEmbed()
+          .setColor("#2F3136")
+          .setDescription(
+            `**You Are In Cooldown Please Wait \`5s\` To Use \`${
+              args[0]
+            }\` Again**`
+          )
+      );
+    } else {
+      message.author
+        .send(
+          new MessageEmbed().setColor("#2F3136")
+            .setDescription(`**${client.emotes.nodejs} Description : calculator code
+${client.emotes.list} Code : \`https://pastebin.com/JMaJacpR\`**`)
+        )
+        .then(() => {
+          message.react(`${client.emotes.success}`);
+        })
+        .catch(() => {
+          message.react(`${client.emotes.error}`);
+        });
+      cooldown.add(message.author.id);
+      setTimeout(() => {
+        cooldown.delete(message.author.id);
+      }, 7000);
+    }
+  }
+});
 
 client.on("message", async message => {
   if (message.channel.type == "dm") return;
