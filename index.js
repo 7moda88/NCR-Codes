@@ -96,14 +96,14 @@ fs.readdir(`./src/commands/`, (err, files) => {
     client.commands.set(command.name, command);
   });
 });
-fs.readdir(`./src/commands/testCommands/`, (err, files) => {
+fs.readdir(`./src/commands/test/`, (err, files) => {
   if (err) return console.log(chalk.red.bold(err));
   files.forEach(file => {
     if (!file.endsWith(".js")) return;
-    const command = require(`./src/commands/testCommands/${file}`);
+    const command = require(`./src/commands/test/${file}`);
     let commandName = file.split(".")[0];
     console.log(
-      chalk.green.bold("Loading testCommands: ") + chalk.red.bold(`"${commandName}"`)
+      chalk.green.bold("Loading Test Commands: ") + chalk.red.bold(`"${commandName}"`)
     );
     client.commands.set(command.name, command);
   });
