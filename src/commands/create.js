@@ -33,6 +33,8 @@ module.exports = {
     cooldown: 10,
     aliases: ["create", "make"],
     run: async(client, message, args) => {
+            message.channel.send(`<:craftingtable:849534405903253565> **| This command is temporarily disabled!**`)
+            return message.react('<:craftingtable:849534405903253565>')
             message.delete();
             var lang2 = await db.fetch(`langguild_${message.guild.id}`);
             var prefix = await db.fetch(`prefix_${message.guild.id}`);
@@ -47,16 +49,16 @@ module.exports = {
                         )
                     );
                 }
-                if (args[0] && !args[0].startsWith("Music")) {
+                if (args[0] && !args[0].startsWith("music")) {
                     return message.lineReply(
                         new MessageEmbed()
                         .setColor("#2F3136")
                         .setDescription(
-                            `${client.emotes.error} | Available bots: **Music**`
+                            `${client.emotes.error} | Available bots: **music**`
                         )
                     );
                 }
-                if (args[0] && args[0].startsWith("Music")) {
+                if (args[0] && args[0].startsWith("music")) {
                     if (args[0] && !args[1]) {
                         return message.lineReply(
                             new MessageEmbed()
@@ -120,7 +122,7 @@ module.exports = {
                     message.lineReply(
                         new MessageEmbed()
                         .setColor("#2F3136")
-                        .setDescription(`**${client.emotes.success} | تم رفع بوت بنجاح**`)
+                        .setDescription(`**${client.emotes.success} | Your bot is online**`)
                         .addField(
                             "**be sure**", [
                                 "you token can't be visible to any user except you",
