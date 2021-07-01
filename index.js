@@ -9890,6 +9890,7 @@ ${client.emotes.list} Code : \`https://pastebin.com/P9Y6VWhL\`**`)
 });
 
 client.on('message', async msg => {
+  if (msg.author.bot) return;
   if (msg.channel.type == "dm") return msg.lineReply("you can't use me in dm pls go and invite me on your server:\n<https://bit.ly/3wYb4SM>");
   var prefix = await db.fetch(`prefix_${msg.guild.id}`);
   if (prefix == null) prefix = client.config.prefix;
