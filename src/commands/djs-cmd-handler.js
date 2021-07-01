@@ -33,12 +33,6 @@ module.exports = {
 
       let embed = new MessageEmbed()
         .setColor("#2F3136")
-        .setImage(
-          "https://cdn.discordapp.com/attachments/756396739086254113/783001805856047154/1_OF0xEMkWBv-69zvmNs6RDQ_1.gif"
-        )
-        .setThumbnail(
-          "https://cdn.discordapp.com/attachments/805068312366940160/809833245092085831/index.png"
-        )
         .setFooter(`Page ${page} of ${pages.length}`)
         .setDescription(pages[page - 1]);
 
@@ -72,14 +66,8 @@ module.exports = {
             let user = message.author.id;
             page--;
             embed.setTitle("**discord.js Command Handler Codes**");
-            embed.setImage(
-              "https://cdn.discordapp.com/attachments/756396739086254113/783001805856047154/1_OF0xEMkWBv-69zvmNs6RDQ_1.gif"
-            );
-            embed.setThumbnail(
-              "https://cdn.discordapp.com/attachments/805068312366940160/809833245092085831/index.png"
-            );
             embed.setDescription(pages[page - 1]);
-            embed.setFooter(`Page ${page} of ${pages.length}`);
+            embed.setFooter(`Page ${page} / ${pages.length}`);
             msg.edit({ embed: embed });
             r.users.remove(user);
           });
@@ -88,14 +76,9 @@ module.exports = {
             let user = message.author.id;
 
             page++;
+            embed.setTitle("**discord.js Command Handler Codes**");
             embed.setDescription(pages[page - 1]);
-            embed.setImage(
-              "https://cdn.discordapp.com/attachments/756396739086254113/783001805856047154/1_OF0xEMkWBv-69zvmNs6RDQ_1.gif"
-            );
-            embed.setThumbnail(
-              "https://cdn.discordapp.com/attachments/805068312366940160/809833245092085831/index.png"
-            );
-            embed.setFooter(`Page ${page} of ${pages.length}`);
+            embed.setFooter(`Page ${page} / ${pages.length}`);
             msg.edit({ embed: embed });
             r.users.remove(user);
           });
@@ -122,13 +105,7 @@ module.exports = {
       let page = 1;
       let embed = new MessageEmbed()
         .setColor("#2F3136")
-        .setImage(
-          "https://cdn.discordapp.com/attachments/756396739086254113/783001805856047154/1_OF0xEMkWBv-69zvmNs6RDQ_1.gif"
-        )
-        .setThumbnail(
-          "https://cdn.discordapp.com/attachments/805068312366940160/809833245092085831/index.png"
-        )
-        .setFooter(`Page ${page} of ${pages.length}`)
+        .setFooter(`Page ${page} / ${pages.length}`)
         .setDescription(pages[page - 1]);
       let embed2 = new MessageEmbed()
         .setColor("#2F3136")
@@ -156,14 +133,8 @@ module.exports = {
             let user = message.author.id;
             page--;
             embed.setTitle("**discord.js Command Handler Codes**");
-            embed.setImage(
-              "https://cdn.discordapp.com/attachments/756396739086254113/783001805856047154/1_OF0xEMkWBv-69zvmNs6RDQ_1.gif"
-            );
-            embed.setThumbnail(
-              "https://cdn.discordapp.com/attachments/805068312366940160/809833245092085831/index.png"
-            );
             embed.setDescription(pages[page - 1]);
-            embed.setFooter(`Page ${page} of ${pages.length}`);
+            embed.setFooter(`Page ${page} / ${pages.length}`);
             msg.edit({ embed: embed });
             r.users.remove(user);
           });
@@ -171,13 +142,8 @@ module.exports = {
             if (page === pages.length) return;
             let user = message.author.id;
             page++;
+            embed.setTitle("**discord.js Command Handler Codes**");
             embed.setDescription(pages[page - 1]);
-            embed.setImage(
-              "https://cdn.discordapp.com/attachments/756396739086254113/783001805856047154/1_OF0xEMkWBv-69zvmNs6RDQ_1.gif"
-            );
-            embed.setThumbnail(
-              "https://cdn.discordapp.com/attachments/805068312366940160/809833245092085831/index.png"
-            );
             embed.setFooter(`Page ${page} of ${pages.length}`);
             msg.edit({ embed: embed });
             r.users.remove(user);
