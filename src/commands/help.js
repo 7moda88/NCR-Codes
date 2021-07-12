@@ -63,9 +63,14 @@ module.exports = {
                     true
                 )
                 .addField(
-                    `<:est_tube:857587996982640661> | ${prefix}test-djs-v12`,
+                    `<:est_tube:857587996982640661> | ${prefix}test-djs`,
                     "لجربت أكواد ال djs",
                     true
+                )
+                .addField(
+                `<:commandblock:864017639767932929> | ${prefix}eval`,
+                "تشغيل اي كود من فئة ال جافا سكريت",
+                true
                 )
                 .addField(`**Uptime** ${client.emotes.uptime}`, "_ _", false)
                 .addField(
@@ -153,9 +158,14 @@ module.exports = {
                     true
                 )
                 .addField(
-                    `<:est_tube:857587996982640661> | ${prefix}test-djs-v12`,
+                    `<:est_tube:857587996982640661> | ${prefix}test-djs`,
                     "test djs codes",
                     true
+                )
+                .addField(
+                `<:commandblock:864017639767932929> | ${prefix}eval`,
+                "run an any javascript code",
+                true
                 )
                 .addField(`**Uptime** ${client.emotes.uptime}`, "_ _", false)
                 .addField(
