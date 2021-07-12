@@ -18,7 +18,7 @@ module.exports = {
                 .setColor("RED")
                 .setDescription(`خطأ: يرحي تحدي اصدار ال بكج\nمثال: ${prefix}test-djs-v12 <code number on the "${prefix}djs" board>`)
               )
-            } else if {
+            } else if (lang2 == "english") {
               message.channel.send(
                 new MessageEmbed()
                 .setColor("RED")
