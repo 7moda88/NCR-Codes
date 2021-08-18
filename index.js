@@ -13,8 +13,6 @@ const fs = require("fs");
 const chalk = require("chalk");
 const db = require("quick.db");
 const cooldown = new Set();
-const mongo = require("./src/db/mongo");
-const musicTokensSchema = require("./src/db/schema/music-tokens-schema");
 
 client.commands = new Collection();
 client.config = require("./src/config/bot");
