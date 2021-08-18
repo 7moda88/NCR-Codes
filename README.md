@@ -1,8 +1,7 @@
+<h1 align="center"><img src="https://media.discordapp.net/attachments/756329106953601225/833732437526839327/PicsArt_04-19-05.54.51.jpg"></h1>
 <h1 align="center">NCR Codes ✨</h1>
 
 <h3 align="center">NCR Codes ✨, is a powerful codes bot!.</h3>
-
-**Make Sure You Can Invite The Real Bot From [Here](https://discord.com/oauth2/authorize?client_id=780558820640423966&permissions=1647832432&scope=bot%20applications.commands)**
 
 ## ⚡ Installation
 
